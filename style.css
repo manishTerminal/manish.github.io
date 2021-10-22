@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@300&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  margin-left: 48px;
+  font-family: "Georama", sans-serif !important;
+  font-size: larger;
+}
+.cart {
+  margin-right: 48px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  background-color: gold;
+  height: 50px;
+  /* display: flex; */
+}
+img {
+  width: 40px;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.logo:hover {
+  transform: scale(1.5);
+}
+.banner {
+  margin: 16px;
+  background-color: gray;
+  height: 176px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.categories {
+  margin: 0px 48px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.groc {
+  margin-top: 16px;
+}
+.btn {
+  background-color: orange;
+  border-style: none;
+  padding: 0px 16px;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+}
+.btn:hover {
+  background-color: rgb(252, 83, 60);
+}
+.footer {
+  height: 72px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.products {
+  height: 126px;
+  width: 100px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 0px 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.products:hover {
+  transform: scale(1.1);
+}
+.buy {
+  background-color: orange;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.buy:hover {
+  transform: scale(1.1);
+  background-color: orangered;
+  color: white;
+}
